@@ -31,7 +31,7 @@ namespace SistemaBancario.Model
             {
                 throw new ArgumentException("O valor do saque deve ser maior que zero.");
             }
-            valor -= 5;
+            valor += 5;
             base.Sacar(valor);
         }
     }
